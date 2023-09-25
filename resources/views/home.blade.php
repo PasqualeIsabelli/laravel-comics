@@ -9,7 +9,7 @@
       <div class="bg-primary d-inline-block cs-banner"><h4 class="text-white fw-bold">CURRENT SERIES</h4></div>
       <div class="row row-cols-6">
         @foreach ($comics as $comic)
-          <a class="text-decoration-none" href="{{ route('comic_page') }}">
+          <a class="text-decoration-none" href="{{ route('action_comic') }}">
             <div class="card border-0">
               <img src="{{ $comic['thumb'] }}">
               <div class="card-body text-white fs-5">{{ $comic['series'] }}</div>

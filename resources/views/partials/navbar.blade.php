@@ -12,7 +12,7 @@ $navlinks = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'V
     </ul>
     <div class="d-flex align-items-center">
       <input style="max-width: 250px" type="text" class="form-control" placeholder="Search">
-      <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i> P</button>
+      <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-magnifying-glass" style="color: #currentColor;"></i></button>
     </div>
   </div>
 </main>
