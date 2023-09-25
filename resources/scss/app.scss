@@ -1,4 +1,7 @@
 @use 'bootstrap';
 
+@use './partials/bluebar';
 @use './partials/navbar';
 @use './partials/footer';
+@use './partials/jumbo';
+@use './partials/home';

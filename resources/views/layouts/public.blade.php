@@ -7,14 +7,15 @@
   @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body>
-
+  @include('partials.bluebar')
   @include('partials.navbar')
+  @include('partials.jumbo')
 
   <main>
     @yield('content')
   </main>
 
+  @include ('partials.iconbar')
   @include ('partials.footer')
-  
 </body>
 </html>
